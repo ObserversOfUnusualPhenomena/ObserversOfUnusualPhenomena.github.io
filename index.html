@@ -1,3 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Protected Site</title>
+  <style>
+    body {
+      background-color: #333;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #444;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    input[type="password"] {
+      width: 100%;
+      width: 95%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
 <html><head>
     <title>Anomalies</title>
     <style>
@@ -106,6 +156,19 @@
     </style>
 
 <body>
+  <div class="container">
+    <h1>Enter Password</h1>
+    <form action="process.php" method="POST">
+    <form action="files" method="POST">
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html></html>
+</html>
+=======
+>>>>>>> parent of 4d01c05 (Initial Commit)
     <div class="key">
         <div class="key-item">
             <div class="star orange">★</div>
